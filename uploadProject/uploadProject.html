@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FCIGPS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>   
+   <!-- google fonts -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="../imgs/hmpg.jpg" />
+  <link href="../css/login-form.css" rel="stylesheet">
+ </head>
+    <body>
+        
+        <div class="row">
+            <div class="container">
+
+ <a href="../index.html" class="navbar-brand logo" ><span class="FCI">FCI</span>GPS</a>                <!---- LOGIN ---->
+                <div class="col-md-6 col-lg-4 col-sm-7 col-11 login_form" id='login' style="border:1px solid #ddd;padding:20px;background-color:white;box-shadow:0 0 8px #ddd;border-radius:10px">
+                    <h1 style="font-size:35px"> Upload Project </h1>
+                    <form action='login.inc.php' method='POST'>
+                         <div class="n1">Title</div>
+                        <input name="name" type="name" placeholder="Project Title" required><br><br>
+                        <div class="n1">Project Supervisior</div>
+                        <input name="username" type="text" placeholder="Enter Project Supervisior Name" required><br><br>
+                       <div class="n1">GitHub Link</div>
+                        <input name="GitHub_Link" type="url" placeholder="Put GitHub Link" required><br><br>
+                        <div class="n1">Description</div>
+                        <textarea  name="text" type="text" placeholder="Project Description" required>
+                        </textarea><br><br>
+                        <div class="n1">Category</div>
+                        <select class="form-select" aria-label="Default select example" required>
+                        <option selected>Select Category</option>
+                        <option value="Desktop">Desktop Application</option>
+                        <option value="Web">Web Application</option>
+                        <option value="Mobile">Mobile Application</option>
+                        <option value="Uncategorized">Uncategorized</option>
+                        </select>
+                        <br>
+                         <div class="n1"> Attach Screenshots File</div>
+                        <input required type="file" name="file"/>
+                        <br><br>
+                        <div class="co-workers">  
+                        <div class="n1">Co-Workers Names</div>
+                        <div id="myDIV" class="header">
+                       <input required type="text" id="myInput" placeholder="Name...">
+                       <span onclick="newElement()" class="addBtn">Add</span>
+                       </div>
+                        <ul id="myUL">
+                        </ul>
+                        </div>
+                        <br>
+                        <hr>
+                    </form>
+                    <div style="text-align:center">
+                        <button type="submit" name='submit' class="btn btn-lg lgn" style="width:100%;color:#fff;padding:8px;" type="submit"><b>Upload</b>
+                        </button>
+                    </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <br><br><br><br>
+
+ <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="../js/main.js"></script>
+    </body>
+</html>

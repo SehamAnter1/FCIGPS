@@ -1,0 +1,166 @@
+/*
+Seham Anter
+first color  : #d8131b;
+*/
+body{ 
+    background-color: #000;
+    color: #fff!important;
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 20px;
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url(../imgs/hmpg.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; 
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.logo{
+    display: block;
+    padding-bottom: 10px;
+}
+.FCI{
+  color:#d8131b!important ;
+  font-weight: 800!important; 
+  font-size: 23px;
+}
+
+input, textarea{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    white-space: pre-wrap;
+    outline: none;
+    padding: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 9px #d8131b;
+    white-space: pre-wrap;
+    width: 100%;
+    border-radius: 3px;
+}
+input:focus, textarea:focus{
+    border: 1px solid #51CBEE;
+    box-shadow:0 0 7px #51CBEE;
+    background-color:#f7fdff;
+}
+button{
+    transition: all .2s
+}
+a{
+    color: #fff!important;;
+}
+a:hover{
+    text-decoration:none;
+}
+.n1{
+     margin-bottom:5px;
+}
+h2 p{
+     letter-spacing:1px;
+}
+.login_form{
+    background-color: initial!important;
+    border: 1px solid #d8131b!important;
+    box-shadow: 0 0 4px #d8131b!important;
+}
+#signup{
+    display:none;
+}
+.lgn{
+   background-color: #d8131b!important;
+}
+.rgstr{
+   background-color: #000000!important;
+   border: solid 1px #d8131b!important;
+}
+.lgn,.rgstr{
+font-size: 16px;
+font-weight: 200px;
+}
+/**upload project page**/
+.co-workers ul {
+  margin: 0;
+  padding: 0;
+}
+
+.co-workers ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 1px 3px 8px 15px;
+    list-style-type: none;
+    /* font-size: 18px; */
+    transition: 0.2s;
+    border: 0.1px solid;
+}
+
+
+.co-workers .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4px 13px 12px 16px;
+}
+
+.co-workers .close:hover {
+  color: #d8131b;
+}
+
+.co-workers .header {
+  color: white;
+  text-align: center;
+}
+
+.co-workers .header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.co-workers input {
+ 
+  margin-bottom: 7px;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    float: left;
+    font-size: 16px;
+    padding: 4.4999px;
+}
+
+ .co-workers .addBtn {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5.11px;
+    margin-top: -.5px;
+    transition: 0.3s;
+    border-radius: 0;
+    background-color: #d8131b;
+}
+.co-workers .addBtn:hover {
+  background-color: #86b7fe;
+}
+.btn-primary {
+    color: #fff!important;
+    background-color: #000!important;
+    border-color: #d8131b!important;
+}
+/*********/
+ input:focus ,textarea:focus{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+ 
+/*
+Seham Anter
+first color  : #d8131b;
+*/

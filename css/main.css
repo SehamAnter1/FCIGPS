@@ -1,0 +1,271 @@
+/*
+Seham Anter
+first color  : #d8131b;
+*/
+/* genral */
+*{
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #fff!important;
+ }
+ body{
+    background-color: #000;
+    color: 00#fff!important;
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 20px;
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url(../imgs/hmpg.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+ }
+html{
+    scroll-behavior: smooth;
+}
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+}
+ 
+@media (min-width: 992px){
+  .homePage .navItem{
+        padding: 30px;
+    }
+}
+.FCI{
+  color:#d8131b!important ;
+  font-weight: 800!important; 
+  font-size: 22px;  
+}
+.form-control{
+       border-color: #000;
+       color: #000!important;
+ }
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d8131b;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(216 19 27 / 21%);
+}
+.srchbtn:hover{
+     background-color: #d8131b;
+  }
+ .lgin{
+    padding: 0px!important;
+    color:#d8131b!important ;
+    font-weight: 800!important;
+}
+.snup{
+    padding: 0px!important;
+
+ }   
+.homePage  .aboutUs{
+    margin-top: 18%;
+    border: solid 2px #d8131b;
+    padding: 10px;
+ }   
+
+@media (max-width: 991px){
+.homePage  .divi{
+   visibility: hidden;
+ }  
+}
+/**projects page**/
+
+.add{
+    position: fixed;
+    left: 78.5%;
+    top: 83%;
+    width: 50px;
+    height: 50px;
+    /* padding-top: 5px; */
+    background-color: #d8131b;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 1px rgb(239 63 69 / 98%);
+} 
+.add:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(216 19 27 / 21%);
+
+}
+.btn-outline-success.srchbtn {
+    color: #198754;
+    border-color: #d8131b;
+}
+.user{
+  display: inline-block;
+  margin-left: auto;
+  margin-bottom: 12px;
+}
+.dots{
+    display: inline-flex;
+    margin-left: 63%;
+    margin-bottom: 15px;
+ }
+ .dot_items   span{
+    display: none;  
+    visibility: hidden;
+ }  
+ @media(max-width: 992px){
+   .dots{
+    margin-left:67%;
+  } 
+ }
+ @media (max-width: 767px){
+.dots {
+    margin-left: 58%;
+  }
+}
+@media (max-width: 575px){
+.dots {
+    margin-left: 76%;
+ }
+}
+@media (max-width: 482px){
+.dots {
+    margin-left: 71%;
+ }
+}
+@media (max-width: 410px){
+.dots {
+    margin-left: 60%;
+ }
+}
+@media (max-width: 315px){
+.dots {
+    margin-left: 46%;
+ }
+}
+
+@media (max-width: 250px){
+.dots {
+    margin-left: 30%;
+}
+}
+@media (max-width: 206px){
+.dots {
+    margin-left: 15%;
+}
+}
+@media (min-width: 992px){
+.gallery_product {
+    margin-left: 1%;
+    width: 32.333333%;
+}
+}
+@media (max-width: 991px)and (min-width :576px){
+.gallery_product {
+    margin-left: 1%;
+    width: 49%;
+}
+} 
+.user img{
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+ }
+.user_name{
+    font-family: ui-rounded;
+    color: #bbbbbb!important;
+}
+.gallery_product h3{
+    margin-top: 15px;
+    color: #d8131b!important;
+ }
+.gallery_product p{
+    font-family: unset;
+    line-height: 1.5;
+    color: #c6c8cb!important;
+ }
+ .dot {
+   height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+ .gallery-title {
+     font-size: 36px;
+     color: #d8131b;
+     text-align: center;
+     font-weight: 500;
+     margin-bottom: 70px
+ }
+
+ .gallery-title:after {
+    
+    content: "";
+    position: absolute;
+    width: 11.5%;
+    left: 44.1%;
+    margin-left: auto;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid #d8131b;
+     }
+ 
+ .filter-button {
+      border: 1px solid #d8131b;
+     border-radius: 5px;
+     text-align: center;
+     color: #d8131b;
+     margin-bottom: 18px
+ }
+
+ .filter-button:hover {
+      border: 1px solid #d8131b;
+     border-radius: 5px;
+     text-align: center;
+     color: #ffffff;
+     background-color: #d8131b
+ }
+
+ .btn-default:active .filter-button:active {
+     background-color: #d8131b;
+     color: white
+ }
+.none span{
+  visibility: hidden;
+}
+ .port-image {
+     width: 100%
+ }
+
+ .gallery_product {
+    margin-bottom: 30px;
+    height: 100%!important;
+    border: 1px solid #d8131b;
+     padding: 10px;
+    background: #020301e6;
+    border-radius: 8px;
+ }
+  .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(216 19 27 / 21%);
+
+}
+
+ img {
+     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ a{
+        text-decoration: none;
+ }
+
+/****************/
+/**********/
+/*
+Seham Anter
+first color  : #d8131b;
+*/
